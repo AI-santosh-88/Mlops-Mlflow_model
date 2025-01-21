@@ -1,6 +1,7 @@
 ## PROJECT TITLE: 
 ### Iris Classification using Logistic Regression and Random Forest Models with MLflow for Experiment Tracking
 
+
 ### Project Description:
 This project involves using two classification algorithms—Logistic Regression and Random Forest—to classify the Iris dataset, a well-known multi-class classification problem. The dataset is split into training and testing sets, and both models are trained and evaluated with a focus on underfitting by deliberately limiting model complexity (e.g., fewer iterations, regularization, and fewer trees in Random Forest). MLflow is utilized for experiment tracking, model logging, and model registration, ensuring transparency and version control of the machine learning models. The performance of the models is evaluated using accuracy and confusion matrices, and confusion matrix images are logged as artifacts for further analysis.
  
@@ -43,7 +44,7 @@ Handle potential errors during model registration and loading.
 #### 4.Model Registration and Management:
 * The use of MLflow's model registry allowed for efficient model versioning, facilitating the management and comparison of models over time.
   
-#### Summary:
+### Summary:
 
 This project highlights the application of two popular machine learning algorithms (Logistic Regression and Random Forest) for solving the Iris classification problem, with a focus on managing model complexity to induce underfitting. MLflow was leveraged throughout the project to manage experiments, log models, and track performance metrics and artifacts such as confusion matrix visualizations. This approach ensures transparency, reproducibility, and efficient management of models throughout the development lifecycle.
 
